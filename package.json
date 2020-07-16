@@ -1,0 +1,23 @@
+{
+  "name": "nhsd-newman",
+  "version": "1.0.0",
+  "description": "Run postman tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artronics/nhsd-newman-docker.git"
+  },
+  "author": "Jalal Hosseini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artronics/nhsd-newman-docker/issues"
+  },
+  "homepage": "https://github.com/artronics/nhsd-newman-docker#readme",
+  "dependencies": {
+    "newman": "^5.1.2"
+  }
+}
